@@ -1,0 +1,81 @@
+*{
+box-sizing:border-box;}
+body{
+	background-color:#f1f1f1;
+margin:0;}
+
+/* Heading Style */
+.heading{
+background-color:lightgreen;
+color:darkgreen;
+padding:1px;
+text-align:center;	
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the Navbar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Styling Side content */
+.side{
+	float:left;
+	width:20%;
+	padding:15px;
+}
+/* Card styling */
+.card{
+	background-color:lightgrey;
+}
+
+
+/* Styling Main content */
+.main{
+	float: left;
+	width:80%;
+	padding:15px;
+	background-color:pink;
+}
+.main h2{
+	background-color:hotpink;
+	text-align:center;
+	color: maroon;
+	margin:0;
+}
+
+/* Clearing 'float' after column */
+.content:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Responsive Layout */
+@media screen and (max-width:600px){
+	.column{
+		width:100%;
+	}
+}
+
+/* Footer styling */
+.footer{
+background-color:lightgrey;
+padding:10px;
+text-align:center;
+}

@@ -16,5 +16,5 @@ After installing:
 
 # Some common commands in "git"
 
-- **git add *.extension** To add all files with the entered extension e.g,**.txt extention** will add all text files.
-- **git add .** To add all files that aren't included or added yet.
+- _git add *.extension_ :- To add all files with the entered extension example: _git add *.txt extention_ will add all text files.
+- **git add .** :- To add all files that aren't included or added yet.

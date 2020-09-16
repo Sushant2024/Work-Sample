@@ -17,10 +17,11 @@ After installing:
 
 - _git add *.extension_ :- To add all files with the entered extension example: _git add *.txt_ will add all text files.
 - **git add .** :- To add all files of that folder that have not been included or added yet.
-- **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
+- **_Doesn't work always_** :- **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
 
 - **git log** : Shows your activities or changes made on git.
 - **git --help** : Shows all the option that you have for github.
+- **dir> file_name.extension** makes a file with given _file_name_ based on extension type.
 
 # Creating "Remote Repository on Git hub"
 

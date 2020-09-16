@@ -19,10 +19,13 @@ After installing:
 - **git add .** :- To add all files of that folder that have not been included or added yet.
 - **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
 
+- **git log** : Shows your activities or changes made on git.
+- **git --help** : Shows all the option that you have for github.
+
 # Creating "Remote Repository on Git hub"
 
 - Click **+** icon and select "new repository"
 - Give a _name_ to the repository and select _public_.
 - Copy the repository by clicking on "pad icon" infront of location link below Repository_name.
 - In cmd at _Working directory_ : **git remote add origin Location_of_remote_repository** paste the copied url link to repository (i.e, location of repository)
-- To push the changes to _master or main branch_ : **git push -u origin master** (This will add files & folders to the "code_section" on git-hub.
+- To push the changes to _master or main branch_ : **git push -u origin master** (This will add files & folders to the "code_section" on git-hub).

@@ -12,9 +12,17 @@ After installing:
 - **git status** : Shows the files (_It will appear in red if files are available_)
 - **git add file_name** : Adds the file named "**file_name**" to git (_On rechecking of "git status", the entered file will turn green_)
 - **git commit -m "Comment_the_changes_that_you_made"** : Use to add comment to remember the changes (_Do not forget to use **write comment in between double quotation, don't miss " " double_quotation_.**)
-- **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
 
 # Some common commands in "git"
 
-- _git add *.extension_ :- To add all files with the entered extension example: _git add *.txt extention_ will add all text files.
-- **git add .** :- To add all files that aren't included or added yet.
+- _git add *.extension_ :- To add all files with the entered extension example: _git add *.txt_ will add all text files.
+- **git add .** :- To add all files of that folder that have not been included or added yet.
+- **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
+
+# Creating "Remote Repository on Git hub"
+
+- Click **+** icon and select "new repository"
+- Give a _name_ to the repository and select _public_.
+- Copy the repository by clicking on "pad icon" infront of location link below Repository_name.
+- In cmd at _Working directory_ : **git remote add origin Location_of_remote_repository** paste the copied url link to repository (i.e, location of repository)
+- To push the changes to _master or main branch_ : **git push -u origin master** (This will add files & folders to the "code_section" on git-hub.

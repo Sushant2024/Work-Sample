@@ -13,3 +13,8 @@ After installing:
 - **git add file_name** : Adds the file named "**file_name**" to git (_On rechecking of "git status", the entered file will turn green_)
 - **git commit -m "Comment_the_changes_that_you_made"** : Use to add comment to remember the changes (_Do not forget to use **write comment in between double quotation, don't miss " " double_quotation_.**)
 - **touch file_name.extension** : This command is used to create a new file (Eg: **touch index.html** _This will make a new **html_file** named **index_**)
+
+# Some common commands in "git"
+
+- **git add *.extension** To add all files with the entered extension e.g,**.txt extention** will add all text files.
+- **git add .** To add all files that aren't included or added yet.

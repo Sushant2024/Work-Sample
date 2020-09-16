@@ -27,5 +27,5 @@ After installing:
 - Click **+** icon and select "new repository"
 - Give a _name_ to the repository and select _public_.
 - Copy the repository by clicking on "pad icon" infront of location link below Repository_name.
-- In cmd at _Working directory_ : **git remote add origin Location_of_remote_repository** paste the copied url link to repository (i.e, location of repository)
+- In cmd at _Working directory_ : **git remote add origin Location_of_remote_repository** _paste the copied url link to repository (i.e, location of repository)_
 - To push the changes to _master or main branch_ : **git push -u origin master** (This will add files & folders to the "code_section" on git-hub).
